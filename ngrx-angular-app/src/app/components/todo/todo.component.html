@@ -1,0 +1,3 @@
+<ul>
+    <li *ngFor="let todo of todos; let i = index">{{todo.title}} <span (click)="removeTodo(i)">X</span></li>
+</ul>
